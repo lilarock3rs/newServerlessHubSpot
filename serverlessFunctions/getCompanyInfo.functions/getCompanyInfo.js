@@ -5,7 +5,7 @@
   exports.main = ({ accountId }, sendResponse) => {
     // Use axios to make a GET request to the search API
     axios
-      .get('https://api.hubapi.com/contentsearch/v2/search', {
+      .get('https://api.hubapi.com/company/v2/search', {
         params: {
           portalId: accountId,
           term: 'searchTerm',
