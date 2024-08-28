@@ -1,0 +1,11 @@
+{
+  "runtime": "nodejs18.x",
+  "version": "1.0",
+  "environment": {},
+  "endpoints": {
+    "getcontactinfo": {
+      "method": "GET",
+      "file": "getContactInfo.js"
+    }
+  }
+}

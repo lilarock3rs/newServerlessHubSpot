@@ -1,0 +1,11 @@
+{
+  "runtime": "nodejs18.x",
+  "version": "1.0",
+  "environment": {},
+  "endpoints": {
+    "getCompanyInfo": {
+      "method": "GET",
+      "file": "getCompanyInfo.js"
+    }
+  }
+}
